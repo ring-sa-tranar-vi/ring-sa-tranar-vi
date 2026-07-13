@@ -6,6 +6,8 @@ A beginner-friendly fitness app designed for seniors and inactive users, offerin
 **Focus:** safety, simplicity, and confidence, like a guided phone call.
 
 [PLACEHOLDER for some 3-5 screenshots]
+<img width="430" height="760" alt="Screenshot 2026-07-13 at 16 23 50" src="https://github.com/user-attachments/assets/e0694e94-95f1-461d-8cca-853b0fb492dd" />
+
 
 ## Demo
 
