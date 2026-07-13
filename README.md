@@ -3,6 +3,7 @@ AI-driven, call like training app for older adults (60+) and inactive individual
 
 ## Project Overview
 A beginner-friendly fitness app designed for seniors and inactive users, offering simple workouts, voice guidance, and personalized support.
+
 **Focus:** safety, simplicity, and confidence, like a guided phone call.
 
 [PLACEHOLDER for some 3-5 screenshots]
