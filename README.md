@@ -9,14 +9,16 @@ A beginner-friendly fitness app designed for seniors and inactive users, offerin
 
 ## Demo
 
-- Frontend: <frontend deployment URL [PLACEHOLDER]>
-- Backend: <backend deployment URL [PLACEHOLDER]> (if public)
+- Frontend: <[frontend deployment](https://prod-ringsatranarvi-app.web.app/)>
+- Backend: <[backend deployment](https://prod-backend-service-49973934534.europe-west3.run.app/)>
 
 ## Architecture Diagram
 - Frontend handles UI, AI interaction, and authentication.
 - Backend manages logic, data, and validation.
 - Data is stored in a relational database, with media (audio/images) in object storage.
-- Deployment [placeholder]
+
+<img width="3844" height="4161" alt="Ring så träna via rhcitecture (1)" src="https://github.com/user-attachments/assets/3e20d582-abce-47e2-9b0b-cb49c5065177" />
+
 
 ## Core Features
 - Works without login (limited functionality)
@@ -43,12 +45,12 @@ Frontend → Gemini → function call → Backend → response → Gemini → Us
 ## Repository Structure
 
 - Frontend – User interface and client-side logic  
-  <frontend repository link>
+  <[frontend repository link](https://github.com/ring-sa-tranar-vi/frontend)>
 
 - Backend – API and business logic  
-  <backend repository link>
+  <[backend repository link](https://github.com/ring-sa-tranar-vi/backend)>
 
 - Infrastructure – Deployment and configuration  
-  <infrastructure repository link>
+  <[infrastructure repository link](https://github.com/ring-sa-tranar-vi/infrastructure)>
 
 
