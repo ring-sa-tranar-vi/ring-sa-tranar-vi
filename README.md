@@ -48,12 +48,12 @@ Frontend → Gemini → function call → Backend → response → Gemini → Us
 ## Repository Structure
 
 - Frontend – User interface and client-side logic  
-  <[frontend repository link](https://github.com/ring-sa-tranar-vi/frontend)>
+  [Repository Link](https://github.com/ring-sa-tranar-vi/frontend)
 
 - Backend – API and business logic  
-  <[backend repository link](https://github.com/ring-sa-tranar-vi/backend)>
+  [Repository Link](https://github.com/ring-sa-tranar-vi/backend)
 
 - Infrastructure – Deployment and configuration  
-  <[infrastructure repository link](https://github.com/ring-sa-tranar-vi/infrastructure)>
+  [Repository Link](https://github.com/ring-sa-tranar-vi/infrastructure)
 
 
