@@ -6,7 +6,13 @@ AI-driven, call like training app for older adults (60+) and inactive individual
 **Focus:** safety, simplicity, and confidence, like a guided phone call.
 
 ## Project Overview
-<img width="430" height="760" alt="Screenshot 2026-07-13 at 16 23 50" src="https://github.com/user-attachments/assets/e0694e94-95f1-461d-8cca-853b0fb492dd" />
+
+<img width="300" alt="homepage" src="https://github.com/user-attachments/assets/67396f8d-8540-48d9-9675-4cc5bd213594" />
+
+<img width="300"  alt="choose trainer" src="https://github.com/user-attachments/assets/d8c743f9-d845-42cf-ba5d-36a71226819a" />
+
+<img width="300" alt="events and organisations" src="https://github.com/user-attachments/assets/dc733fa3-99bb-494c-affb-3e9dfc29ed75" />
+
 
 The system consists of three separate repositories that together make up the application:
 
@@ -37,15 +43,25 @@ Key Features
 | --- | --- | --- |
 | [**Frontend**](https://github.com/ring-sa-tranar-vi/frontend) | User interface and client-side application | React, TypeScript, Vite |
 | [**Backend**](https://github.com/ring-sa-tranar-vi/backend) | REST API, business logic, authentication, and integrations | Java 21, Spring Boot, Gradle |
-| [**App**]() | User interface and client-side native application | React Native, Expo |
+| [**App**](https://github.com/ring-sa-tranar-vi/app) | User interface and client-side native application | React Native, Expo |
 | [**Infrastructure**](https://github.com/ring-sa-tranar-vi/infrastructure) | Cloud infrastructure and environment configuration | Infrastructure as Code |
 
 See each repository's README for detailed documentation.
 
 ## Demo
 
-- Frontend: <[frontend deployment](https://prod-ringsatranarvi-app.web.app/)>
-- Backend: <[backend deployment](https://prod-backend-service-49973934534.europe-west3.run.app/)>
+Frontend:
+
+- [Production](https://prod-ringsatranarvi-app.web.app/)
+  
+- [Staging](https://staging-ringsatranarvi-app.web.app)
+  
+
+Backend:
+
+- [Production](https://prod-backend-service-49973934534.europe-west3.run.app/)
+  
+- [Staging](https://staging-backend-service-49973934534.europe-west3.run.app)
 
 Getting Started
 
@@ -66,10 +82,14 @@ The recommended orde to getting started is:
 - Data is stored in a relational database, with media (audio/images) in object storage.
 - The infrastructure repository is responsible for the underlying infrastructure and environment configuration.
 
+<img width="800" alt="ring så tränar vi architecture" src="https://github.com/user-attachments/assets/42ce4e3b-a6e1-4529-9483-a61bd7ea8ec6" />
 
-<img width="3844" height="4161" alt="Ring så träna via rhcitecture (1)" src="https://github.com/user-attachments/assets/3e20d582-abce-47e2-9b0b-cb49c5065177" />
 
-userflow chart
+### Userflow chart
+
+The userflow below illustrates the main journey through the application, from the initial interaction to the different available paths and outcomes. It provides an overview of how users move between the different screens and actions.
+
+<img width="800" height="1123" alt="Ring så tränar vi Userflow" src="https://github.com/user-attachments/assets/e23790b6-7896-48d0-b69b-e0642d3a6f77" />
 
 ## Components & External Services
 
@@ -179,6 +199,16 @@ Staging
     ▼
 Production
 ```
+
+Staging
+- Frontend: https://staging-ringsatranarvi-app.web.app
+- Backend: https://staging-backend-service-49973934534.europe-west3.run.app
+
+Production
+- Frontend: https://prod-ringsatranarvi-app.web.app/
+- Backend: https://prod-backend-service-49973934534.europe-west3.run.app/
+
+Environment-specific configuration, infrastructure, and deployment processes are managed through the infrastructure and application repositories.
 
 Environment-specific configuration, infrastructure, and deployment processes are managed through the infrastructure and application repositories.
 
